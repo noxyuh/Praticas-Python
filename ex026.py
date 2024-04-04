@@ -1,0 +1,5 @@
+frase = str(input('Digite uma frase: '))
+r = frase.upper()
+print('A letra', frase.count('A',0, 50) )
+print('A primeira letra', frase[0], 'apareceu na posiçao 0')
+print('A ultima letra', frase[0], 'apareceu na posiçao 9',)
